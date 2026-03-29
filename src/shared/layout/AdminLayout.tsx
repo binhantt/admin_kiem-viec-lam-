@@ -5,7 +5,6 @@ import type { MenuProps } from 'antd';
 import {
   AppstoreOutlined,
   TeamOutlined,
-  LineChartOutlined,
   BellOutlined,
   UserOutlined,
   SearchOutlined,

@@ -41,7 +41,7 @@ export function BlogCreatePage({ onBackToList }: BlogCreatePageProps) {
     try {
       const values = await form.validateFields();
       
-      const result = await blogApi.createPost({
+      await blogApi.createPost({
         ...values,
         image: values.image || null,
       });
