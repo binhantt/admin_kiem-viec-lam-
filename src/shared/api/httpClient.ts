@@ -1,5 +1,5 @@
-const isLocal = window.location.hostname === 'localhost';
-const API_BASE_URL = isLocal ? 'http://localhost:8080/api' : 'http://hovan.online/api';
+const API_BASE_URL = 'http://hovan.online/api';
+
 export class BannedException extends Error {
   readonly banned = true;
   constructor(message: string) {
